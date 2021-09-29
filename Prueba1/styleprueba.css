@@ -1,0 +1,48 @@
+body {
+    padding-left: 11em;
+    background-color: coral;
+    margin: auto;
+
+}
+header {
+    background-color: floralwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    
+    margin: auto;
+}
+.content {
+    border: black;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey; 
+    width: 75%;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em 
+    }
+    ul.menu li {
+        background: yellowgreen;
+        margin: 0.5em 0;
+        padding: 0.3em;
+        text-align: center
+         }
+        ul.menu a {
+            text-decoration: none }
+          a:link {
+            color: blue }
+          a:visited {
+            color: purple }
+
+footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted;
+    text-align: center; }

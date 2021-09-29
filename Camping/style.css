@@ -1,0 +1,36 @@
+body {
+    color:black;
+    
+    background-color: hsl(237, 23%, 88%);
+}
+
+.container-fluid {
+    display: flex;
+    list-style-type: none; 
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(134, 134, 134, 0.4);
+    position:fixed;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Glory', sans-serif;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+
+}
+
+
+#portada{    
+    max-width: 100%;
+    height: auto;
+    
+}
+
+#icono{
+    color: black;
+}
